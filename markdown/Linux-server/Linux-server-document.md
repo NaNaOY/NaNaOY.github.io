@@ -3348,14 +3348,14 @@ Contains most of the Linux Services
 >        server_name  *.xywy.com ;
 >
 >        large_client_header_buffers 4 16k;
->                                    
+>                                        
 >        location / {
->                                    
+>                                        
 >          #添加这3行 
 >           proxy_buffer_size 64k;
 >           proxy_buffers   32 32k;
 >           proxy_busy_buffers_size 128k;
->                                    
+>                                        
 >           proxy_set_header Host $host;
 >           proxy_set_header X-Real-IP       $remote_addr;
 >           proxy_set_header X-Forwarded-For  $proxy_add_x_forwarded_for;
@@ -3389,9 +3389,9 @@ Contains most of the Linux Services
 >
 >
 >        location / {
->                                    
+>                                        
 >          ......
->                                    
+>                                        
 >        }
 >
 >}         
@@ -3553,16 +3553,16 @@ Contains most of the Linux Services
 > 
 >        -- 归档模式
 >        archive = true,
->                                    
+>                                        
 >        -- 压缩传输
 >        compress = true,
->                                    
+>                                        
 >        -- 增量
 >        verbose   = true,
->                                    
+>                                        
 >        -- 密码文件
 >        password_file = "/etc/passwd.txt",
->                                    
+>                                        
 >        -- 其他 rsync 的配置参数, 限速(--bwlimit KBPS),使用 rsync -v 查看详细参数
 >        -- _extra = {"--bwlimit=200", "--port=800"},
 >           _extra = {"--port=800"},
@@ -4628,7 +4628,7 @@ Contains most of the Linux Services
 >         * 注意：切记不可以在每次发送消息时，都调用start方法 
 >         */  
 >        producer.start();  
->              
+>                  
 >        /** 
 >         * 下面这段代码表明一个Producer对象可以发送多个topic，多个tag的消息。 
 >         * 注意：send方法是同步调用，只要不抛异常就标识成功。但是发送成功也可会有多种状态，<br> 
@@ -4645,7 +4645,7 @@ Contains most of the Linux Services
 >                    SendResult sendResult = producer.send(msg);  
 >                    System.out.println(sendResult);  
 >                }  
->              
+>                  
 >                {  
 >                    Message msg = new Message("TopicTest2",// topic  
 >                            "TagB",// tag  
@@ -4654,7 +4654,7 @@ Contains most of the Linux Services
 >                    SendResult sendResult = producer.send(msg);  
 >                    System.out.println(sendResult);  
 >                }  
->              
+>                  
 >                {  
 >                    Message msg = new Message("TopicTest3",// topic  
 >                            "TagC",// tag  
@@ -4668,7 +4668,7 @@ Contains most of the Linux Services
 >            }  
 >            TimeUnit.MILLISECONDS.sleep(1000);  
 >        }  
->              
+>                  
 >        /** 
 >         * 应用退出时，要调用shutdown来清理资源，关闭网络连接，从MetaQ服务器上注销自己 
 >         * 注意：我们建议应用在JBOSS、Tomcat等容器的退出钩子里调用shutdown方法 
@@ -4714,9 +4714,9 @@ Contains most of the Linux Services
 >         * 注意：一个consumer对象可以订阅多个topic 
 >         */  
 >        consumer.subscribe("TopicTest2", "*");  
->              
+>                  
 >        consumer.registerMessageListener(new MessageListenerConcurrently() {  
->              
+>                  
 >            /** 
 >             * 默认msgs里只有一条消息，可以通过设置consumeMessageBatchMaxSize参数来批量接收消息 
 >             */  
@@ -4725,7 +4725,7 @@ Contains most of the Linux Services
 >                    List<MessageExt> msgs, ConsumeConcurrentlyContext context) {  
 >                System.out.println(Thread.currentThread().getName()  
 >                        + " Receive New Messages: " + msgs.size());  
->              
+>                  
 >                MessageExt msg = msgs.get(0);  
 >                if (msg.getTopic().equals("TopicTest1")) {  
 >                    // 执行TopicTest1的消费逻辑  
@@ -4742,16 +4742,16 @@ Contains most of the Linux Services
 >                } else if (msg.getTopic().equals("TopicTest2")) {  
 >                    System.out.println(new String(msg.getBody()));  
 >                }  
->              
+>                  
 >                return ConsumeConcurrentlyStatus.CONSUME_SUCCESS;  
 >            }  
 >        });  
->              
+>                  
 >        /** 
 >         * Consumer对象在使用之前必须要调用start初始化，初始化一次即可<br> 
 >         */  
 >        consumer.start();  
->              
+>                  
 >        System.out.println("Consumer Started.");  
 >    }  
 >}  
