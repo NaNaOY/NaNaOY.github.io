@@ -4,7 +4,7 @@
 
 ### pom文件基础配置
 
->  在每次配置完pom文件之后只需**点击**![maven刷新](C:\雨鱼\NaNaOY.github.io\img\maven刷新.png)即可。
+>  在每次配置完pom文件之后只需**点击**![maven刷新](../../../../img/maven刷新.png)即可。
 >
 > ```javascript
 > <?xml version="1.0" encoding="UTF-8"?>
