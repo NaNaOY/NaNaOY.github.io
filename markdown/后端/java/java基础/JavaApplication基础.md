@@ -46,3 +46,5 @@ public class Welcome2 {
 ```java
         System.exit(0);	//terminate the program
 ```
+
+# [返回首页](https://nanaoy.github.io/)
