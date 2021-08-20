@@ -16,18 +16,21 @@
 
 #### 			java基础
 
-- [数据类型](./markdown/后端/java/java基础/数据类型)
-- [Java Number&Math](./markdown/后端/java/java基础/Java Number&Math)
-- [Java对象和类](./markdown/后端/java/java基础/Java对象和类)
-- [Java修饰符](./markdown/后端/java/java基础/Java修饰符)
-- [Java语法基础](./markdown/后端/java/java基础/Java语法基础)
-- [JavaApplication基础](./markdown/后端/java/java基础/JavaApplication基础)
+   - [数据类型](./markdown/后端/java/java基础/数据类型)
+   - [Java Number&Math](./markdown/后端/java/java基础/Java Number&Math)
+   - [Java对象和类](./markdown/后端/java/java基础/Java对象和类)
+   - [Java修饰符](./markdown/后端/java/java基础/Java修饰符)
+   - [Java语法基础](./markdown/后端/java/java基础/Java语法基础)
+   - [JavaApplication基础](./markdown/后端/java/java基础/JavaApplication基础)
+   - [Java方法](./markdown/后端/java/java基础/Java方法)
+   - [Java数组](./markdown/后端/java/java基础/Java数组)
+   - [Java正则表达式](./markdown/后端/java/java基础/Java正则表达式)
 
 
 
 #### Maven
 
-- [pom设置](./markdown/后端/java/Maven/pom设置)
+   - [pom设置](./markdown/后端/java/Maven/pom设置)
 
 ---
 
@@ -59,7 +62,7 @@
 
 ### 		技术栈
 
-- [运维](./markdown/运维/技术栈/运维)
+   - [运维](./markdown/运维/技术栈/运维)
 
 
 
@@ -69,7 +72,7 @@
 
 ### 		jenkins
 
-- [jenkins](./markdown/运维/jenkins/jenkins)
+   - [jenkins](./markdown/运维/jenkins/jenkins)
 
 
 
@@ -83,7 +86,7 @@
 
 ### 		Prometheus
 
-- [Promethus监控系统](./markdown/运维/Prometheus/Promethus监控系统)
+   - [Promethus监控系统](./markdown/运维/Prometheus/Promethus监控系统)
 
 ---
 
@@ -91,7 +94,7 @@
 
 ## git
 
-- [git命令](./markdown/git/git命令)
+   - [git命令](./markdown/git/git命令)
 
 ---
 
@@ -99,7 +102,7 @@
 
 ## Linux-server
 
-- [Linux-server-document](./markdown/Linux-server/Linux-server-document)
+   - [Linux-server-document](./markdown/Linux-server/Linux-server-document)
 
 ---
 
@@ -107,7 +110,7 @@
 
 ## markdown使用
 
-- [使用手册](./markdown/markdown使用/使用手册)
+   - [使用手册](./markdown/markdown使用/使用手册)
 
 ---
 
@@ -115,8 +118,8 @@
 
 ## ULE-CLASS-document
 
-- [ULE-Class-network](./markdown/ULE-CLASS-document/ULE-Class-network)
-- [ULE-Class-Notes](./markdown/ULE-CLASS-document/ULE-Class-Notes)
+   - [ULE-Class-network](./markdown/ULE-CLASS-document/ULE-Class-network)
+   - [ULE-Class-Notes](./markdown/ULE-CLASS-document/ULE-Class-Notes)
 
 ---
 
