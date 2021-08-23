@@ -60,31 +60,31 @@
 
 
 
-### 		技术栈
+### 		1. 技术栈
 
    - [运维](./markdown/运维/技术栈/运维)
 
 
 
-### 		Docker
+### 		2. Docker
 
 
 
-### 		jenkins
+### 		3. jenkins
 
    - [jenkins](./markdown/运维/jenkins/jenkins)
 
 
 
-### 		K8s
+### 		4. K8s
 
 
 
-### 		Nginx
+### 		5. Nginx
 
 
 
-### 		Prometheus
+### 		6. Prometheus
 
    - [Promethus监控系统](./markdown/运维/Prometheus/Promethus监控系统)
 
@@ -135,7 +135,7 @@
 
 ## 常用需记
 
-   - [常用需记](./markdown/常用需记/常用英文)
+   - [常用英文](./markdown/常用需记/常用英文)
 
 ---
 
