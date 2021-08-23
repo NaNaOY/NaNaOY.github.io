@@ -121,5 +121,25 @@
    - [ULE-Class-network](./markdown/ULE-CLASS-document/ULE-Class-network)
    - [ULE-Class-Notes](./markdown/ULE-CLASS-document/ULE-Class-Notes)
 
+---
+
+
+
+## 搭建博客
+
+   - [配置Jekyll](./markdown/搭建博客/配置Jekyll)
+
+---
+
+
+
+## 常用需记
+
+   - [常用需记](./markdown/常用需记/常用英文)
+
+---
+
+
+
 
 
