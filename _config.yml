@@ -1,1 +1,68 @@
-theme: jekyll-theme-architect
+minimal_mistakes_skin: default
+title: 标题
+name: name
+email: email
+description: description
+baseurl: ""
+url: "url"
+remote_theme: mmistakes/minimal-mistakes@4.24.0
+exclude:
+  - CHANGELOG.md
+  - CNAME
+  - Gemfile
+  - Gemfile.lock
+  - LICENSE
+  - README.md
+  - screenshot.png
+  - docs/
+plugins:
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-include-cache
+search: true
+locale: zh-CN
+date_format: "%Y年%m月%d日"
+words_per_minute: 200
+category_archive:
+  type: liquid
+  path: /categories/
+tag_archive:
+  type: liquid
+  path: /tags/
+jekyll-archives:
+  enabled:
+    - categories
+    - tags
+  layouts:
+    category: archive-taxonomy
+    tag: archive-taxonomy
+  permalinks:
+    category: "/categories/:name/"
+    tag: "/tags/:name/"
+defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      comments: true
+      share: false
+      related: true
+      show_date: true
+      classes: wide
+  - scope:
+      path: "assets/images"
+    values:
+      image: true
+og_image: /assets/images/photo.png
+author:
+  name: name
+  avatar: /assets/images/photo.png
+  bio: bio。
+  location: 中国 北京
+  links:
+    - label: GitHub
+      icon: fab fa-fw fa-github
+      url: "https://github.com/nanaoy"
